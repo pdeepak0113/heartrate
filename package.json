@@ -1,0 +1,19 @@
+{
+  "name": "heartrate",
+  "version": "1.0.0",
+  "description": "Install Node.js: If you haven't already, download and install Node.js from the official website: Node.js Download.\r Set Up Your Project Directory: Create a new directory on your computer where you want to work on this project. Navigate to that directory using your terminal or command prompt.\r Create Files: Inside your project directory, create the heartrate.json file with your heart rate data and calculateHeartRate.ts with the TypeScript code provided earlier.\r Install Dependencies: Run the following command in your terminal to install the required dependencies:\r Copy code\r npm install lodash moment\r Compile TypeScript to JavaScript: Run the following command to compile the TypeScript code to JavaScript:\r Copy code\r tsc calculateHeartRate.ts\r Execute the JavaScript Code: Run the following command to execute the JavaScript code:\r Copy code\r node calculateHeartRate.js\r This will run the script, read the heartrate.json file, calculate the heart rate statistics, and write the results to output.json in the same directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
